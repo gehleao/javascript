@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Dom</title>
+    <style>
+        div#area {
+            font: normal 24px 'courier';
+            background: lightblue;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="area"> 
+        Interaja...
+    </div>
+
+    <script>
+        //pode ser feito assim também
+        var a = document.getElementById('area')
+        //EventListener é usado para limpar o HTML
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', bye)
+
+
+        function clicar() {
+            //var a = document.getElementById('area')
+            a.innerText = 'Clicou!'
+        }
+
+        function entrar() {
+            //var a = document.getElementById('area')
+            a.innerText = 'Entrou!'
+            a.style.background = 'lightpink'
+        }
+
+        function bye() {
+            //var a = document.getElementById('area')
+            a.innerText = 'Bye!'
+            a.style.background = 'lightblue'
+        }
+    </script>
+</body>
+</html>
