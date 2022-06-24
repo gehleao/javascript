@@ -14,22 +14,21 @@
 <body>
     <h1>Controle Populacional</h1>
     <p>Qual a sua nacionalidade?</p>
-    <input type="text" id="txt1">
-    <input type="button" value="Verificar" onclick="verificar()">
+    <input type="text" name="tx" id="tx">
+    <input type="button" value="Verificar" onclick="calcular()">
     <div id="res">
 
     </div>
 
     <script>
-    function verificar () {
-    var txt1 = document.getElementById('txt1')
-    var res = document.getElementById('res')
-    var país = document.getElementById('Brasil')
-    
-    if (país == 'Brasil') {
-        res.innerHTML += `<p>Você mora no ${país}.</p>`  
-        } else {
-            res.innerHTML += `<p>Você mora no Brasil, mas não naturalizado.<p/>`
+    function calcular () {
+        var tx = document.getElementById('tx')
+        var res = document.getElementById('res')
+        var país = 'Brasil'
+        if (país == 'Brasil') {
+            res.innerHTML = `<p>Documentos ok!</p>`
+        } else { 
+            res.innerHTML += `<p>Você é Brasileiro não naturalizado. Procure um orgão para emissão de documentos</p>`
         }
     }
     </script>
