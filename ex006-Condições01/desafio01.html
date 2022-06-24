@@ -15,16 +15,16 @@
     <h1>Controle Populacional</h1>
     <p>Qual a sua nacionalidade?</p>
     <input type="text" name="tx" id="tx">
-    <input type="button" value="Verificar" onclick="calcular()">
+    <input type="button" value="Verificar" onclick="verificar()">
     <div id="res">
 
     </div>
 
     <script>
-    function calcular () {
+    function verificar () {
         var tx = document.getElementById('tx')
         var res = document.getElementById('res')
-        var país = 'Brasil'
+        var país = (tx.value)
         if (país == 'Brasil') {
             res.innerHTML = `<p>Documentos ok!</p>`
         } else { 
