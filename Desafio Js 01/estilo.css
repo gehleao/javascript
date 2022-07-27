@@ -7,7 +7,7 @@
 }
 
 body {
-    background: rgb(172, 172, 251);
+    background: darkgray;
     font: normal 15px ' courier';
      
 }
@@ -15,6 +15,10 @@ body {
 header {
     color: white;
     text-align: center;
+}
+
+header > h1 {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 section {
@@ -31,4 +35,19 @@ footer {
     color: white;
     text-align: center;
     font-style: italic;
+}
+
+#msg {
+    padding-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#foto {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
