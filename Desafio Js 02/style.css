@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+
+body {
+    background: rgb(128, 128, 236);
+    font: normal 10px 'Fira Code';
+    margin: auto;
+}
+
+header {
+    font: normal 2.5em 'Fira Code';
+    text-align: center;
+    background: white;
+    width: 800px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+header > p {
+    padding: 10px;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+}
+
+Footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    font-style: italic;
+}
+
+
+#res{
+    margin-top: 30px;
+}
+
+#foto {
+    padding: 25px;
+}
