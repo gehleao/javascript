@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(250, 181, 91, 0.788);
+    margin: auto;
+}
+
+header {
+    font: normal  2.5em 'Fira Code';
+    text-align: center;
+    padding: 30px;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
+}
+
+div > p {
+    font-size: 20px;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer {
+    font-size: 20px;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    
+}
