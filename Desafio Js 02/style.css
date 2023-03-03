@@ -3,8 +3,6 @@
 
 body {
     background: rgb(128, 128, 236);
-    font: normal 10px 'Fira Code';
-    margin: auto;
 }
 
 header {
@@ -16,11 +14,9 @@ header {
     border-radius: 10px;
 }
 
-header > p {
-    padding: 10px;
-}
 
 section {
+    font: normal 16px 'Fira Code';
     background: white;
     border-radius: 10px;
     padding: 10px;
@@ -29,8 +25,17 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.425);
 }
 
+#res {
+    padding: 20px;
+}
+
+img {
+    padding-top: 10px;
+}
+
 Footer {
     color: white;
+    font: normal 16px 'Fira Code';
     text-align: center;
     padding: 10px;
     margin: 15px;
@@ -38,10 +43,5 @@ Footer {
 }
 
 
-#res{
-    margin-top: 30px;
-}
 
-#foto {
-    padding: 25px;
-}
+
