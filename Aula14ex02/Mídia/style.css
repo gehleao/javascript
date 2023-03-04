@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(182, 243, 61, 0.63);
+    font-family: 'Fira code'; 
+    
+}   
+
+header {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 30px;
+}
+
+Section {
+    background: white;
+    margin: auto;
+    width: 500px;
+    height: 350px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 5px;
+}
+
+div {
+    font-size: 16px;
+}
+
+
+#dados {
+    padding: 20px 80px;
+}
+
+
+#res {
+    padding: 0px 80px;
+}
+
+footer {
+    text-align: center;
+}
